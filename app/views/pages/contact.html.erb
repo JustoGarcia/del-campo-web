@@ -1,0 +1,16 @@
+<h1>Contáctanos</h1>
+<%= form_with model: @contact, url: contact_path, method: :post do |f| %>
+  <div>
+    <%= f.label :name, "Nombre" %>
+    <%= f.text_field :name, required: true %>
+  </div>
+  <div>
+    <%= f.label :email, "Correo Electrónico" %>
+    <%= f.email_field :email, required: true %>
+  </div>
+  <div>
+    <%= f.label :message, "Mensaje" %>
+    <%= f.text_area :message, required: true %>
+  </div>
+  <%= f.submit "Enviar" %>
+<% end %>

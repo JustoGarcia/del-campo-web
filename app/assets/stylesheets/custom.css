@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .hero-section {
+    background-image: url('/path-to-hero-image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
